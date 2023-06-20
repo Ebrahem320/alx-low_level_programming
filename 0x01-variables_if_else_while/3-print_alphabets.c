@@ -10,23 +10,23 @@
 
 int main(void)
 {
-        char ch = 'a';
-        char CH = 'A';
+	char ch = 'a';
+	char CH = 'A';
 
-        /*pr a - z*/
-        while (ch <= 'z')
-        {
-                putchar(ch);
-                ch++;
-        }
+	/*pr a - z*/
+	while (ch <= 'z')
+	{
+		putchar(ch);
+		ch++;
+	}
 
-        /*pr A - Z*/
-        while (CH <= 'Z')
-        {
-                putchar(CH);
-                CH++;
-        }
-        putchar('\n');
+	/*pr A - Z*/
+	while (CH <= 'Z')
+	{
+		putchar(CH);
+		CH++;
+	}
+	putchar('\n');
 
-        return (0);
+	return (0);
 }
